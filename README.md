@@ -1,4 +1,4 @@
-输入文件为：in.txt
+输入文件为：in.txt \n
 内容为：
 test
 test
