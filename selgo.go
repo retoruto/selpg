@@ -33,7 +33,7 @@ func process_args() bool {
 	}
 	if os.Args[1][0:2] != "-s" {
 		err := errors.New("command should be like as -s=number -e=number [options] [filename]")
-		fmt.Fprintln(os.Stderr, "warning(command formant): ", err)
+		fmt.Fprintln(os.Stderr, "warning(command format): ", err)
 		return false
 	}
 	if *start_page <= 0 {
@@ -43,7 +43,7 @@ func process_args() bool {
 	}
 	if os.Args[2][0:2] != "-e" {
 		err := errors.New("command should be like as -s=number -e=number [options] [filename]")
-		fmt.Fprintln(os.Stderr, "warning(command formant): ", err)
+		fmt.Fprintln(os.Stderr, "warning(command format): ", err)
 		return false
 	}
 	if *end_page <= 0 {
