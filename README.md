@@ -39,18 +39,18 @@ test <br>
 test <br>
 error.txt 为空 <br>
 
-测试5：./selpg -s=1 -e=2 in.txt >out.txt 2>error.txt
-结果：out.txt文件内容为：
-test
-test
-test
-test
+测试5：./selpg -s=1 -e=2 in.txt >out.txt 2>error.txt<br>
+结果：out.txt文件内容为：<br>
+test<br>
+test<br>
+test<br>
+test<br>
 
-测试6：./selpg -s=1 -e=3 -l=1 in.txt
-结果:
-test
-test
-test
+测试6：./selpg -s=1 -e=3 -l=1 in.txt<br>
+结果:<br>
+test<br>
+test<br>
+test<br>
 
 测试7：
 
