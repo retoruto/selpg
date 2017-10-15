@@ -56,7 +56,12 @@ test<br>
 test<br>
 test<br>
 
-测试7：
+测试7：./selpg -s=1 -e=2 -f test.txt<br>
+test.txt<br>
+"test\ftest\ftest\f"<br>
+结果:<br>
+test<br>
+test<br>
 
 
 
